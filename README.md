@@ -1,2 +1,2 @@
 # fcclearning-front
-Frontend para el proyecto de Proyecto I+DI
+Frontend para el proyecto de Proyectos I+DI
