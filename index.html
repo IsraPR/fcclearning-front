@@ -31,10 +31,8 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div id="MenuNavegacion" class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-3">
-              <li class="nav-item fw-bold">
-                <a href="#" class="nav-link">Registrarse</a>
-              </li>
+            <!-- <ul class="navbar-nav ms-3"> -->
+            <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
@@ -51,6 +49,12 @@
                 <a href="aboutus.html" class="nav-link">Nosotros</a>
               </li>
             </ul>
+            <div class="d-flex">
+              <button class="btn btn-primary me-2" type="button">
+                Iniciar Sesión
+              </button>
+              <button class="btn btn-primary" type="button">Registrarse</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -68,9 +72,17 @@
             <h2 class="text-center">Complementa tu aprendizaje</h2>
           </div>
           <div class="col-sm-12 d-flex justify-content-center p-5">
-            <button type="button" class="btn btn-outline-primary">
+            <!-- <button type="button" class="btn btn-outline-primary">
               Iniciar Sesión
-            </button>
+            </button> -->
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="text"
+                placeholder="Search"
+              />
+              <button class="btn btn-primary" type="button">Buscar</button>
+            </form>
           </div>
         </div>
       </div>
